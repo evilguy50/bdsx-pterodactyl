@@ -1,7 +1,4 @@
-#!/bin/ash
-
-# Make sure we're in the correct dir
-cd /home/container/bdsx
+#!/bin/bash
 
 # Run bdsx
-bash bdsx.sh
+bash bdsx/bdsx.sh
