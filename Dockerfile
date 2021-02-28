@@ -7,7 +7,7 @@ USER container
 ENV USER=container HOME=/home/container
 
 WORKDIR /home/container
-RUN git clone https://github.com/bdsx/bdsx.git
+RUN git clone https://github.com/bdsx/bdsx.git /home/container/bdsx
 
 COPY ./entrypoint.sh /entrypoint.sh
 
